@@ -1,3 +1,9 @@
+# revision 24378
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/cmarrows
+# catalog-date 2007-03-05 14:17:42 +0100
+# catalog-license lppl
+# catalog-version v0.9
 Name:		texlive-cmarrows
 Version:	v0.9
 Release:	1
@@ -65,6 +71,7 @@ in the Computer Modern style.
 %{_texmfdistdir}/metapost/cmarrows/tgbx0027.mp
 %doc %{_texmfdistdir}/doc/metapost/cmarrows/README
 %doc %{_texmfdistdir}/doc/metapost/cmarrows/cmarrows.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -75,3 +82,5 @@ in the Computer Modern style.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version v0.9
 Name:		texlive-cmarrows
-Version:	v0.9
-Release:	10
+Version:	0.9
+Release:	1
 Summary:	MetaPost arrows and braces in the Computer Modern style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/cmarrows
@@ -72,18 +72,3 @@ in the Computer Modern style.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.9-2
-+ Revision: 750258
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.9-1
-+ Revision: 718075
-- texlive-cmarrows
-- texlive-cmarrows
-- texlive-cmarrows
-- texlive-cmarrows
-- texlive-cmarrows
-

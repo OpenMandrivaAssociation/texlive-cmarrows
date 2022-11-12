@@ -5,8 +5,8 @@ Summary:	MetaPost arrows and braces in the Computer Modern style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/cmarrows
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmarrows.r24378.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmarrows.doc.r24378.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmarrows.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmarrows.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg

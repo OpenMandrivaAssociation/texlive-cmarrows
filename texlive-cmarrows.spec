@@ -1,6 +1,6 @@
 Name:		texlive-cmarrows
 Version:	24378
-Release:	1
+Release:	2
 Summary:	MetaPost arrows and braces in the Computer Modern style
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/cmarrows
